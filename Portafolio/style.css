@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("fondo.jpg"); no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+#main-header {
+    background-color: rgba(255, 182, 193, 0.9);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-header h1 {
+    font-size: 2.5em;
+}
+
+#main-header p {
+    font-size: 1.2em;
+}
+
+#contact-button {
+    background-color: #ff69b4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#contact-button:hover {
+    background-color: #ff1493;
+}
+
+#about-me {
+    padding: 20px;
+    background-color: rgba(255, 240, 245, 0.8);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#about-me h2 {
+    font-size: 2em;
+    color: #ff69b4;
+}
+
+#about-me p {
+    font-size: 1.2em;
+}
+
+#skills {
+    padding: 20px;
+    background-color: rgba(255, 240, 245, 0.8);
+    margin: 20px;
+    border-radius: 5px;
+}
+
+#skills h2 {
+    font-size: 2em;
+    color: #ff69b4;
+}
+
+.skills-column {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 20px;
+}
+
+.skills-column li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 201, 209, 0.9);
+    color: white;
+    position:relative;
+    width: 100%;
+    bottom: 0;
+}
